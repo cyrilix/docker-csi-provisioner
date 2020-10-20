@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM golang:1.15-buster AS src
 
-ARG VERSION=v1.6.0
+ARG VERSION=v1.6.1
 ARG BUILDPLATFORM
 
 RUN git clone https://github.com/kubernetes-csi/external-provisioner.git  /go/src/external-provisioner
